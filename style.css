@@ -12,6 +12,12 @@ body {
     box-shadow: 10px 10px 0px #000000;
 }
 
+.main-container {
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
 .profile-image {
     border: 5px solid #FF0000;
     margin: 10px;
@@ -98,22 +104,33 @@ li {
 
 .rainbow-text {
     font-size: 48px;
-    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-    background-size: 300% 300%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: color-change 3s ease infinite;
+    color: red;
+    animation: color-change 1.2s ease infinite;
 }
 
 @keyframes color-change {
     0% {
-        background-position: 0% 50%;
+        color: red;
     }
-    50% {
-        background-position: 100% 50%;
+    14% {
+        color: orange;
+    }
+    28% {
+        color: rgb(0, 0, 0);
+    }
+    42% {
+        color: green;
+    }
+    56% {
+        color: blue;
+    }
+    70% {
+        color: indigo;
+    }   
+    84% {
+        color: violet;
     }
     100% {
-        background-position: 0% 50%;
+        color: red;
     }
 }
-        

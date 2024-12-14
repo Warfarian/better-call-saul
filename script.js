@@ -1,8 +1,3 @@
-window.addEventListener('beforeunload', function (e) {
-    e.preventDefault();
-    e.returnValue = 'WAIT! Do you really want to leave without calling Saul?';
-});
-
 function createTrail(e) {
     const trail = document.createElement('div');
     trail.className = 'cursor-trail';
@@ -18,7 +13,6 @@ function createTrail(e) {
     }, 100);
 }
 
-const iframe = document.querySelector('iframe');
-iframe.addEventListener('mousemove', createTrail);
+
 
 document.addEventListener('mousemove', createTrail);
