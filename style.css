@@ -1,0 +1,92 @@
+/* Classic 90s styling */
+body {
+    background: #FFFF00;
+    font-family: "Comic Sans MS", cursive;
+    margin: 0;
+    padding: 20px;
+    cursor: url('https://cur.cursors-4u.net/cursors/cur-2/cur117.cur'), auto;
+}
+
+.main-content {
+    border: 10px ridge #FF0000;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+.profile-image {
+    border: 5px solid #FF0000;
+    margin: 10px;
+    image-rendering: pixelated;
+}
+
+h2, h3 {
+    text-shadow: 2px 2px #FF0000;
+    color: #000080;
+    font-family: "Times New Roman", serif;
+}
+
+ul {
+    list-style-type: '⚖️ ';
+    font-size: 18px;
+    color: #000080;
+    padding-left: 30px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+.phone-section {
+    background: #FF6B6B;
+}
+
+.counter-section {
+    background: #06e6cf;
+    color: #0073ff;
+    font-weight: 900;
+    font-family: "Courier New", monospace;
+    padding: 10px;
+    margin: 20px 0;
+    border: 3px inset #808080;
+}
+
+.cursor-trail {
+    pointer-events: none;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #FF0000;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.testimonial-box {
+    background: #f0f8ff; 
+    border: 2px solid #0073ff;
+    border-radius: 5px; 
+    padding: 10px; 
+    margin: 10px 0;
+}
+
+.consultation-form {
+    background: #e6ffe6;
+    border: 2px solid #28a745; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin: 20px 0; 
+}
+
+.ad-banner{
+    
+}
