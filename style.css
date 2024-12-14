@@ -1,7 +1,7 @@
 /* Classic 90s styling */
 body {
     background: #FFFF00;
-    font-family: "Comic Sans MS", cursive;
+    font-family: "Comic Sans MS", 'Times New Roman', serif ,cursive;
     margin: 0;
     padding: 20px;
     cursor: url('https://cur.cursors-4u.net/cursors/cur-2/cur117.cur'), auto;
@@ -133,4 +133,42 @@ li {
     100% {
         color: red;
     }
+}
+
+@keyframes flashy {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); box-shadow: 0 0 20px #FFD700; }
+}
+
+.disco-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://web.archive.org/web/20090829143149/http://geocities.com/dancereviews/discoball.gif') no-repeat center center fixed;
+    z-index: 9999;
+    background-size: 15%;
+    display: none;
+}
+
+input[type="submit"] {
+    background: linear-gradient(45deg, #FF0000, #FF7F00);
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #000000;
+    animation: flashy 0.5s infinite alternate, shake 0.5s infinite alternate;
+}
+
+@keyframes shake {
+    0% { transform: translate(0); }
+    25% { transform: translate(-5px, 0); }
+    50% { transform: translate(5px, 0); }
+    75% { transform: translate(-5px, 0); }
+    100% { transform: translate(0); }
 }
