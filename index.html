@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BETTER CALL SAUL! - Criminal Lawyer</title>
+    <title>BETTER CALL SAUL!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <audio autoplay loop>
+        <source src="path/to/your/musicfile.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <table class="main-container" cellpadding="0" cellspacing="0" border="0" width="800" align="center">
         <tr>
             <td align="center">
                 <marquee scrollamount="10" behavior="alternate">
-                    <font size="7" color="red">⚖️ BETTER CALL SAUL! ⚖️</font>
+                    <font size="7" color="red" class="rainbow-text">⚖️ BETTER CALL SAUL! ⚖️</font>
                 </marquee>
             </td>
         </tr>
@@ -19,7 +23,7 @@
                 <table class="main-content" cellpadding="10" width="100%" bgcolor="#ADD8E6">
                     <tr>
                         <td align="center">
-                            <img src="./assets/gifs/americanFlag.gif    " 
+                            <img src="./assets/gifs/americanFlag.gif" 
                                  width="400" 
                                  alt="Saul Goodman"
                                  class="profile-image">
@@ -29,9 +33,9 @@
                     </tr>
                     <tr>
                         <td class="phone-section">
-                            <marquee direction="up" scrollamount="2" height="100">
+                            <marquee direction="up" scrollamount="8" height="100">
                                 <center>
-                                    <h2>☎️ CALL NOW: (505) 503-4455 ☎️</h2>
+                                    <h1 style="font-size: 36px;">☎️ CALL NOW: (505) 503-4455 ☎️</h1>
                                 </center>
                             </marquee>
                         </td>
@@ -49,35 +53,50 @@
                                 <li><span class="blink">WHATEVER YOU NEED!</span></li>
                             </ul>
                         </td>
-                        <tr>
-                            <td>
-                                <h3 align="center">⭐ CLIENT TESTIMONIALS ⭐</h3>
-                                <div class="testimonial-box">
-                                    <p class="testimonial-text">"Saul got me out of a tight spot! Best lawyer in ABQ!"</p>
-                                    <p class="testimonial-author">- Jesse P.</p>
-                                </div>
-                                <div class="testimonial-box">
-                                    <p class="testimonial-text">"When the DEA was breathing down my neck, Saul knew exactly what to do!"</p>
-                                    <p class="testimonial-author">- Walter W.</p>
-                                </div>
-                                <div class="testimonial-box">
-                                    <p class="testimonial-text">"He's not just a criminal lawyer, he's a 'criminal' lawyer! 😉"</p>
-                                    <p class="testimonial-author">- Huell B.</p>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- New Ads Section -->
-                        <tr>
-                            <td>
-                                <div class="ad-banner">
-                                    <marquee scrollamount="3">
-                                        <span class="blink">🔥 HOT DEAL! 🔥</span> 
-                                        First Consultation 50% OFF! Limited Time Offer!
-                                        <span class="blink">⚖️ ACT NOW! ⚖️</span>
-                                    </marquee>
-                                </div>
-                            </td>
-                        </tr>
+                                            <tr>
+                        <td>
+                            <h3 align="center">⭐ CLIENT TESTIMONIALS ⭐</h3>
+                            <table width="100%">
+                                <tr>
+                                    <td width="50%">
+                                        <img src="assets/gifs/walter.webp" alt="Walter" style="width: 150px; float: left; margin-right: 10px;">
+                                        <div class="testimonial-box">
+                                            <p class="testimonial-text">"Saul got me out of a tight spot in my marriage! Best lawyer in ABQ!"</p>
+                                            <p class="testimonial-author">- Walter W.</p>
+                                        </div>
+                                    </td>
+                                    <td width="50%">
+                                        <img src="assets/gifs/lalo.webp" alt="Walter" style="width: 150px; float: left; margin-right: 10px;">
+                                        <div class="testimonial-box">
+                                            <p class="testimonial-text">"When the DEA was breathing down my neck, Saul knew exactly what to do!"</p>
+                                            <p class="testimonial-author">- Lalo S.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%">
+                                        <img src="assets/gifs/jesse.gif" alt="Walter" style="width: 150px; float: left; margin-right: 10px;">
+                                        <div class="testimonial-box">
+                                            <p class="testimonial-text">"He's awesome yo"</p>
+                                            <p class="testimonial-author">- Jesse P.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- New Ads Section -->
+                    <tr>
+                        <td>
+                            <div class="ad-banner">
+                                <marquee scrollamount="3">
+                                    <span class="blink">🔥 HOT DEAL! 🔥</span> 
+                                    First Consultation 50% OFF! Limited Time Offer!
+                                    <span class="blink">⚖️ ACT NOW! ⚖️</span>
+                                </marquee>
+                            </div>
+                        </td>
+                    </tr>
                         <tr>
                             <td>
                                 <div class="consultation-form">
@@ -99,6 +118,7 @@
                                             <tr>
                                                 <td colspan="2" align="center">
                                                     <input type="submit" value="CONTACT ME ASAP!" style="background: #FF0000; color: #FFFFFF; font-weight: bold; padding: 5px 20px;">
+                                                    <img src="https://web.archive.org/web/20020410051014/http://geocities.com:80/lawandb/mail7.gif" alt="Email Icon">
                                                 </td>
                                             </tr>
                                         </table>
@@ -124,12 +144,63 @@
                             </a>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <img src="assets\gifs\saul.gif" style="width: 100%; margin: 10px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3 align="center">GUESTBOOK!</h3>
+                            <div id="guestbook" style="position: relative;">
+                                <iframe src="https://saulgoodman.atabook.org/" 
+                                        width="800" 
+                                        height="600" 
+                                        style="border: none;">
+                                </iframe>
+                                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.5); pointer-events: none;"></div>
+                                <script src="script.js"></script>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <div class="image-gallery" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 5px; justify-content: center;"> 
+                                    <img src="https://anlucas.neocities.org/amazonpurple.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/ftktop.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/msie2.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/icon6.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/top50w.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/evilnet.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/colorhunt.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/cool-shades.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/roro1a.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/roroqa.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/newtek.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/office97.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/ss89a.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/nescenter.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/nonags.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/aniquake.gif" style="width: 100%; margin: 10px;">  
+                                    <img src="https://anlucas.neocities.org/fastweb.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/icbg.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/lol.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/themez.gif" style="width: 100%; margin: 10px;">
+                                    <img src="https://anlucas.neocities.org/artwanted.gif" style="width: 100%; margin: 10px;">
+                                </div>
+                        </td>
+                    </tr>
                 </table>
             </td>
         </tr>
         <tr>
         </tr>
     </table>
+    <br>
+    <marquee behavior="scroll" direction="left" scrollamount="10">
+        Welcome to Saul's Law Office! We are here to help you!
+    </marquee>
     <script src="script.js"></script>
+
 </body>
 </html>

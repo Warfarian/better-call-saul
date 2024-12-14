@@ -81,12 +81,39 @@ li {
 
 .consultation-form {
     background: #e6ffe6;
-    border: 2px solid #28a745; 
+    border: 2px solid #a72a28; 
     border-radius: 5px; 
     padding: 20px; 
     margin: 20px 0; 
 }
 
 .ad-banner{
-    
+    background: #1eff00;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #FF0000;
+    border-radius: 5px;
+    text-align: center;
 }
+
+.rainbow-text {
+    font-size: 48px;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: color-change 3s ease infinite;
+}
+
+@keyframes color-change {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+        

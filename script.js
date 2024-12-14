@@ -1,12 +1,8 @@
-
-
-// Add 90s-style exit popup
 window.addEventListener('beforeunload', function (e) {
     e.preventDefault();
     e.returnValue = 'WAIT! Do you really want to leave without calling Saul?';
 });
 
-// Add some classic 90s cursor trails
 function createTrail(e) {
     const trail = document.createElement('div');
     trail.className = 'cursor-trail';
@@ -21,5 +17,8 @@ function createTrail(e) {
         }, 500);
     }, 100);
 }
+
+const iframe = document.querySelector('iframe');
+iframe.addEventListener('mousemove', createTrail);
 
 document.addEventListener('mousemove', createTrail);
