@@ -1,6 +1,5 @@
-/* Classic 90s styling */
 body {
-    background: #FFFF00;
+    background-image: url("./assets/checkers.webp");
     font-family: "Comic Sans MS", 'Times New Roman', serif ,cursive;
     margin: 0;
     padding: 20px;
@@ -173,3 +172,61 @@ input[type="submit"] {
     100% { transform: translate(0); }
 }
 
+
+.case-image {
+    display: flex;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ul {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 18px;
+    color: #000080;
+}
+
+li {
+    margin: 15px 0;
+    background: #FFCC00;
+    padding: 10px;
+    border: 2px solid #FF0000;
+    border-radius: 5px;
+}
+
+h3 {
+    text-shadow: 2px 2px #FF0000;
+    color: #FF00FF;
+}
+#quiz-form {
+    background: #ADD8E6;
+    border: 2px solid #FF0000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.quiz-question {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #FFFF99;
+    border: 1px solid #FFCC00;
+    border-radius: 5px;
+}
+
+.quiz-submit {
+    background: #FF4500;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.quiz-submit:hover {
+    background: #FF6347;
+}

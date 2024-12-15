@@ -303,3 +303,26 @@ document.querySelector('form').addEventListener('submit', function(event) {
     showDisco();
     this.reset();
 });
+
+document.getElementById('quiz-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    let score = 0;
+    const totalQuestions = 4;
+
+    const answers = {
+        question1: '21',
+        question2: 'Attorney',
+        question3: 'Supreme Court',
+        question4: '18'
+    };
+
+    for (let question in answers) {
+        const selectedAnswer = document.querySelector(`input[name="${question}"]:checked`);
+        if (selectedAnswer && selectedAnswer.value === answers[question]) {
+            score++;
+        }
+    }
+
+    document.getElementById('quiz-result').innerText = `You scored ${score} out of ${totalQuestions}!`;
+});
