@@ -6,10 +6,7 @@ body {
     cursor: url('https://cur.cursors-4u.net/cursors/cur-2/cur117.cur'), auto;
 }
 
-.main-content {
-    border: 10px ridge #FF0000;
-    box-shadow: 10px 10px 0px #000000;
-}
+
 
 .main-container {
     width: 100%; 
